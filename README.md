@@ -2,6 +2,13 @@
 
 Microservicio central de autenticación, autorización y emisión de credenciales criptográficas para arquitectura distribuida de microservicios. Implementado con **Java 17**, **Spring Boot 3** y **Spring Security**.
 
+## Contexto de Despliegue & Arquitectura Distribuida
+
+Este servicio forma parte de una plataforma municipal modular desarrollada por un equipo multidisciplinario. 
+
+* **Despliegue Descentralizado:** Cada microservicio satélite (Gestión, Incidencias, Reportes, Evidencias) fue desarrollado y alojado en infraestructura independiente por los distintos ingenieros del equipo.
+* **Integración:** La comunicación inter-servicio y la validación de identidades se orquestan a través de este núcleo mediante **Service Discovery (Eureka)**, **Spring Cloud Gateway** y el **Auth Client SDK**.
+
 ---
 
 ## Características Técnicas & Arquitectura
