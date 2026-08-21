@@ -28,7 +28,7 @@ Microservicio central de autenticación, autorización y emisión de credenciale
 
 ---
 
-## ⚙️ Variables de Configuración
+## Variables de Configuración
 
 El servicio consume sus secretos mediante variables de entorno o proveedor de secretos (Azure Key Vault):
 
